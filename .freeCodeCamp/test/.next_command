@@ -112,3 +112,5 @@ git push -u origin main
 git push -origin main
 git push origin main
 psql --username=freecodecamp --dbname=postgres
+git status
+git add .
