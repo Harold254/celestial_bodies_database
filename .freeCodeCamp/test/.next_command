@@ -105,3 +105,10 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 git init
 git add .
+git commit -m 'Initial commit'
+git remote add origin https://github.com/Harold254/celestial_bodies_database.git
+git remote set-url origin https://github.com/Harold254/celestial_bodies_database.git
+git push -u origin main
+git push -origin main
+git push origin main
+psql --username=freecodecamp --dbname=postgres
